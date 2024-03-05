@@ -1,4 +1,4 @@
-# MDT Deployment Monitoring and Active Directory Cleanup Script
+# Remove computer from AD using MDT monitoring tool
 
 This PowerShell script is designed to monitor Microsoft Deployment Toolkit (MDT) deployment progress and remove computers from Active Directory upon completion.
 
