@@ -33,7 +33,6 @@ $remotePassword = ConvertTo-SecureString -String "Password" -AsPlainText -Force
 $remoteCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $remoteUsername, $remotePassword
 
 
-# Funkcja usuwająca hosta z Active Directory
 function Remove-HostFromAD {
     param($computerName, $domainCredidential)
 
